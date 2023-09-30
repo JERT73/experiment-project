@@ -1,0 +1,119 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+p{
+    margin: 0px;
+}
+button {
+    font-family: 'Roboto', sans-serif;
+}
+.main-div{
+    background-color: rgb(50, 50, 50);
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game-name{
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.game-board-div{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+.game-board-button{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(23, 23, 23);
+}
+.x-button{
+    color: rgb(150, 30, 150);
+}
+.x-won-button{
+    background-color: rgb(150, 30, 150);
+    color: rgb(23, 23, 23);
+}
+.o-button{
+    color: darkgoldenrod;
+}
+.o-won-button{
+    background-color: darkgoldenrod;
+    color: rgb(23, 23, 23);
+}
+.draw-button{
+    color: rgb(61, 61, 61);
+}
+.manage-game-div{
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+}
+.continue-button,
+.reset-button{
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: rgb(25, 25, 25);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    column-gap: 0px;
+}
+.player1{
+    color: black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 5px 16px;
+    background-color: rgb(150, 30, 150);
+    border-width: 2px;
+    border-style: ridge;
+    border-color: black;
+    border-right: none;
+    font-size: 15px;
+    
+}
+.player2{
+    color: black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px 16px;
+    background-color: darkgoldenrod;
+    border-width: 2px;
+    border-style: ridge;
+    border-color: black;
+    border-left: none;
+    font-size: 15px;
+}
+.draw{
+    color: black;
+    padding: 5px 16px;
+    background-color: rgb(61, 61, 61);
+    border-width: 2px;
+    border-style: ridge;
+    border-color: black;
+    border-right: none;
+    border-left: none;
+    font-size: 15px;
+}
+.result-para{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
